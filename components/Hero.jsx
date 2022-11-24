@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import requests from "../src/Requests";
 
-const Main = () => {
+const Hero = () => {
 	const [movies, setMovies] = useState([]);
 
 	const movie = movies[Math.floor(Math.random() * movies.length)];
@@ -54,4 +54,4 @@ const Main = () => {
 	);
 };
 
-export default Main;
+export default Hero;

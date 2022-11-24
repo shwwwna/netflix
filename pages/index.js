@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import Main from "../components/Main";
 import Navbar from "../components/Navbar";
+import Main from "./home";
 
 export default function Home() {
 	return (
